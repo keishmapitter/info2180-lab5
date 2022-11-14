@@ -1,1 +1,106 @@
 /* Add your own styles */
+
+
+body{
+	margin: 0px;
+	background-color: lightseagreen;
+}
+
+header {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid blueviolet;
+	background-color: blueviolet;
+	color: white;
+	text-align: center;
+	height: 100px;
+}
+
+
+
+#controls {
+	display: grid;
+	margin: auto;
+	width: 50%;
+	/*border: 2px solid red;*/
+	text-align: center;
+	padding-top: 100px;
+	grid-template-rows: 50% 50%;
+	grid-template-columns: 25% 25% 25% 25%; 
+	grid-row-gap: 10px;
+}
+
+label {
+	grid-column-start: 1
+	grid-column-end 2;
+	justify-self: end;
+	padding-right: 5px;
+}
+
+#country {
+	grid-column: 2/ span 2;
+}
+
+#lookup {
+	width: 50%;
+	grid-row-start: 2;
+	grid-column-start: 2;
+	justify-self: end;
+	background-color: #04C700;
+	color: white;
+
+}
+
+#cities {
+	width: 70%;
+	grid-row-start: 2;
+	grid-column-start: 3;
+	justify-self: center;
+	background-color: #0085B2;
+	color: white;
+
+}
+
+#result {
+	margin: auto;
+	width: 65%;
+	margin-top: 50px;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+	border: 1px solid blue;
+	border-collapse: collapse;
+}
+
+table th {
+	background-color: white;
+}
+
+.white {
+	background-color: white;
+}
+
+.lightblue {
+	background-color: rgb(0, 213, 255);
+}
+
+img {
+	width: 100px;
+	height: 60px;
+	float: left;
+	margin-left: 500px;
+	margin-right: 0px; 
+	/*border: 2px solid green;*/
+	margin-top: 20px;
+}
+
+h1 {
+	/*border: 2px solid red;*/
+	margin: auto;
+	width: 50%;
+	margin-top: 30px;
+}
